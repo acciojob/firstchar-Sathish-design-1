@@ -1,5 +1,12 @@
 function firstChar(text) {
   // your code here
+let str = text.trim();
+
+if(str.length === 0){
+	return '';
+}
+
+	return str[0];
 }
 
 // Do not change the code below
